@@ -2,6 +2,13 @@
   margin: auto 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Korner Deli NF';
+  src: url("../My-Portfolio/fonts/KornerDeliNF.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 .container {
   text-align: center;
   font-family: 'Comfortaa';
@@ -56,6 +63,7 @@ a {
   line-height: 2.5rem; 
   display: flex;
   justify-content: center;
+
 }
 
 .logo, nav a {
