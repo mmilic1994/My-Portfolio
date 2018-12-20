@@ -12,7 +12,40 @@ a {
   text-decoration: none;
 }
 
+.thanks {
+  background-color: #315240;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
 
+.thanks1{
+   width: 100%;
+}
+
+.thanks2{
+  border: 1px solid #315240;
+  border-radius: 1rem;
+  background-color: #315240;
+}
+
+.thanks2 p {
+  color: #fff;
+}
+
+.thanks2:hover {
+  background-color: beige;
+  cursor: pointer;
+  
+}
+
+.thanks2 p:hover {
+  color: #315240;
+}
 
 .scratchmapp {
   font-family: 'Korner Deli NF';
