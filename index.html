@@ -245,7 +245,7 @@
                     </div>
                     <form id="contact" action="https://formspree.io/mmilic1994@gmail.com" method="post">
                         <div class="bigdiv">
-                            <div class="firstname"><input placeholder="First Name*" type="text" tabindex="1" name="name"
+                            <div id="name" class="firstname"><input placeholder="First Name*" type="text" tabindex="1" name="name"
                                     required></div>
                             <div class="lastname"><input placeholder="Last Name*" type="text" tabindex="2" name="name"
                                     required></div>
@@ -254,7 +254,7 @@
                             <div class="phone"><input placeholder="Phone" type="tel" tabindex="4" required></div>
                         </div>
                         <div class="message"> <textarea placeholder="Your message*" tabindex="5" required></textarea></div>
-                        <div class="button"><button name="submit" type="submit" value="Send" id="contact-submit"
+                        <div id="submit" class="button"><button name="submit" type="submit" value="Send" id="contact-submit"
                                 data-submit="...Sending">Send my message</button></div>
                         <input type="hidden" name="_next" value="https://mmilic1994.github.io/My-Portfolio/thanks.html" />
                     </form>
