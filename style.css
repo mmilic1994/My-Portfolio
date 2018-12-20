@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Korner Deli NF';
-  src: url("../My-Portfolio/fonts/KornerDeliNF.ttf") format('truetype');
+  src: url("./fonts/KornerDeliNF.ttf") format('truetype');
   font-weight: bold;
   font-style: normal;
 }
