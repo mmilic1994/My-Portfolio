@@ -63,6 +63,7 @@ a {
   line-height: 2.5rem; 
   display: flex;
   justify-content: center;
+  padding-top: 2rem;
 
 }
 
@@ -258,7 +259,15 @@ h1 {
 }
 
 .portfolio1 {
-  width: 100%;
+  width: 100%; 
+}
+
+.portfolio1 p {
+  padding-bottom: 1rem;
+}
+
+.porfolio1 a img {
+  padding-top: 2rem;
 }
 
 .portfoliotitle {
@@ -454,7 +463,8 @@ footer h2 {
 
 .belfasttitle {
   display: flex;
-  justify-content: center;    
+  justify-content: center;  
+  padding-top: 2rem;  
 }
 
 .bik h2 {
@@ -708,6 +718,7 @@ footer h2 {
     height: 225px;
     display: flex;
     align-items: center;
+   
   }
 
   a {
