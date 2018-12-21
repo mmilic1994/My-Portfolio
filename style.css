@@ -443,6 +443,46 @@ footer h2 {
   padding-bottom: 2rem;
 }
 
+.title {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  
+}
+
+.belfasttitle {
+  display: flex;
+  justify-content: center;    
+}
+
+.bik h2 {
+  font-weight: 900;
+  font-family: 'Roboto';
+  color: #FFFFFF;
+  line-height: 1rem;
+  font-size: 1.5rem;
+  text-align: left;
+  height: 50px;
+  padding-bottom: 1rem;  
+  
+}
+
+.belfast {
+  color:  #FFE964;    
+}
+
+.international {
+  color:#FF523D;
+}
+
+.kindergarten {
+  color: #223C88;
+  
+}
+
+
 @media screen and (min-width: 500px) {
   .profileimg img {
     width: 50%;
@@ -489,6 +529,12 @@ footer h2 {
     width: 100%;
   }
   
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio1 {
+    padding-bottom: 2rem;
+  }
 }
 
 @media screen and (min-width: 500px) and (min-width: 800px) {
@@ -696,6 +742,7 @@ footer h2 {
   
 
 }
+
 
 @media screen and (min-width: 1440px) {
 
