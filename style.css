@@ -63,7 +63,7 @@ a {
   line-height: 2.5rem; 
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 2rem;  
 
 }
 
@@ -545,6 +545,10 @@ footer h2 {
   .portfolio1 {
     padding-bottom: 2rem;
   }
+
+  .belfast_p {
+   padding-top: 1.5rem; 
+  }
 }
 
 @media screen and (min-width: 500px) and (min-width: 800px) {
@@ -721,6 +725,10 @@ footer h2 {
    
   }
 
+  .portland_p {
+    padding-top: 4.4rem;
+  }
+
   a {
     display: inline;
     font-size: 1.3rem;
@@ -825,3 +833,5 @@ footer h2 {
     padding-right: 21rem;
   }
 }
+
+
