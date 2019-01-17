@@ -324,10 +324,6 @@ h1 {
   padding: 1.8rem;
 }
 
-.aboutdescription h4:hover, button:hover {
-  transform: scale(0.8);
-  transition: 1s;
-}
 
 .find_me_here {
   display: flex;
